@@ -1,4 +1,4 @@
-# PlatformIO M5Stack
+# Nerd-Monitor
 
  Shows the total miners and total hashrate from all your [NerdMiners](https://github.com/BitMaker-hub/NerdMiner_v2) of your local network
 
@@ -26,7 +26,7 @@ Add this to the top
 AsyncUDP udp;
 ```
 
-and this just before //Total hashes comment (about line 615)
+and this just before   //Total hashes    comment (about line 615)
 
 ```cpp
     //- NerdMiner-Monitor ----------------->
